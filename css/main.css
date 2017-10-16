@@ -57,3 +57,11 @@ h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
 }
+
+p {
+  font-size: 1.125rem;
+}
+
+footer {
+  font-size: .75rem;
+}
