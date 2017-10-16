@@ -1,17 +1,39 @@
 html {
   line-height: 1.5;
+  margin: .3em;
+  box-sizing: border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
 }
 
 h1 {
+  color: #b20953;
+  display: block;
   font-size: 3em;
+  padding: .2em .5em .3em;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  text-align: center;
 }
 
 li {
+  display: inline-block;
   list-style-type: none;
+  text-align: center;
 }
 
 a {
-  display: inline-block;
+  display: inline;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -21,9 +43,14 @@ a:link {
 }
 
 a:hover {
-
+  background-color: #cc1465;
 }
 
 .current {
   background-color: #b20953
+}
+
+h2 {
+  color: #b20953;
+  font-size: 1.875rem;
 }
