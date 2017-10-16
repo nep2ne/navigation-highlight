@@ -10,12 +10,12 @@ html {
 }
 
 body {
-  margin: .3em;
+  margin: 0;
+  min-width: 400px;
 }
 
 header {
   background-color: #ffe500;
-  padding: .2em .5em .3em;
 }
 
 h1 {
@@ -23,12 +23,19 @@ h1 {
   display: block;
   font-family: "Sigmar One", cursive;
   font-size: 3em;
+  margin: 0;
   text-align: center;
+}
+
+ol {
+  margin: 0;
+  padding-left: 0;
 }
 
 nav {
   display: block;
   font-size: 1.125rem;
+  padding: .2em .5em .3em;
   text-align: center;
 }
 
@@ -42,7 +49,8 @@ a {
   background-color: #b2a212;
   color: #fff;
   display: inline;
-  padding: .75em;
+  margin: 0;
+  padding: .3em;
   text-align: center;
   text-decoration: none;
 }
@@ -73,7 +81,7 @@ img {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 em {
