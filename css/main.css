@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  max-width: 400px;
+}
+
 header {
   background-color: #ffe500;
   padding: .2em .5em .3em;
@@ -72,9 +76,17 @@ p {
   font-size: 1.125rem;
 }
 
+em {
+  font-weight: bold;
+}
+
 footer {
   background-color: #ffe500;
-  font-size: .75rem;
   padding: .75em;
   text-align: center;
+}
+
+footer small {
+  color: #2f2d13;
+  font-size: .75rem;
 }
